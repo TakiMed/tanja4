@@ -1,0 +1,62 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(80, 74, 65);
+    color: rgb(104, 26, 104);
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    color: rgb(190, 83, 167);
+    font-size: 50px;
+    font-weight:700 ;
+    text-align: left;
+}
+h2{
+    text-align: left;
+    font-weight: 500;
+    font-size: 30px;
+}
+.container{
+    width: 100%;
+}
+ul li{
+    list-style: none;
+    background: rgb(207, 209, 180);
+    border: rgb(231, 235, 34) solid 3px;
+    width: 100%;
+    font-size:30px;
+    font-weight: 400;
+    margin: auto;
+    height: 50px;
+}
+.searched{
+    border: none;
+    width: 50%;
+    height: 30px;
+    font-size: 15px;
+}
+#filter{
+    height: 30px;
+    font-size: 20px;
+}
+#form input{
+    height: 40px;
+    justify-content: space-around;
+    font-size: auto;
+}
+#addButton{
+    background-color: rgb(231, 235, 34);
+    width: 3%;
+    align-content: center;
+}
+.delete{
+    width: 5%;
+    height: 60%;
+    margin-top: 10px;
+    float: right;
+    background-color: rgb(190, 83, 167);
+}
+#filter,#newTask{
+    width: 50%;
+}

@@ -1,0 +1,50 @@
+body{
+    color: slateblue;
+    background-color: rgb(24, 24, 87);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+h1 h2{
+    color:lawngreen;
+    font-size: 20px;
+}
+#adder{
+    display: block;
+}
+.addButton{
+    background-color: violet;
+    align-self: center;
+    height: inherit;
+}
+.check p{
+    display: inline;
+    color: springgreen;
+    font-size: 40px;
+}
+.form{
+    display: inline-block;
+}
+.form input{
+    display: inline-block;
+    width: 60%;
+}
+.word{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.word .field{
+    display: flex;
+    flex-wrap: wrap;
+}
+.word .field .letter{
+    display: flex;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: violet;
+    border: slateblue 2px solid;
+}

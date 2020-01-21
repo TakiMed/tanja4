@@ -1,0 +1,55 @@
+body{
+    color: rgb(237, 236, 245);
+    background-color: rgb(210, 224, 210);
+    font-family: 'Segoe UI', Tahoma;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+
+#form1{
+    display: block;
+}
+#form1 button{
+    height: 40px;
+    width: 20%;   
+}
+
+#pomodoro{
+    background-color: rgb(21, 42, 105);
+}
+#short,#long{
+    background-color: rgb(121, 121, 247);
+}
+#form2{
+    display: block;
+    justify-self: space-between;
+}
+#form2 button{
+    visibility: hidden;
+    height: 30px;
+    width: 10%;   
+}
+
+#stop{
+    background-color: red;
+}
+#start{
+    background-color: green;
+}
+#reset{
+    background-color: grey;
+}
+
+button{
+    color: whitesmoke;
+    align-self: center;
+    font-weight: 800;
+}
+#clock{
+    height: 60px;
+}
+#time{
+    font-size: 40px;
+    color: black;
+}
